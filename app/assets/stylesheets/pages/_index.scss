@@ -1,2 +1,34 @@
 // Import page-specific CSS files here.
 @import "home";
+.card-link {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #DED4FA;
+  transition: background 0.3s ease;
+  width: 120px;
+}
+
+.card-link:hover {
+  background: #bfa9fd;
+  color: white;
+}
+
+.card {
+  box-shadow: 2px 2px 2px lightgray;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+// .card.flexbox {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
